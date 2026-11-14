@@ -5,7 +5,7 @@ This is the official implementation of the paper: <br/>
 > Weipeng Zhuo, Ka Ho Chiu, Jierun Chen, Jiajie Tan, Edmund Sumpena, Sangtae Ha, S.-H. Gary Chan, Chul-Ho Lee       
 > *IEEE International Conference on Data Engineering (ICDE), 2023*
 
-##Overview
+## Overview
 
 In applications such as elderly care, dementia antiwandering and pandemic control, it is important to ensure that people are within a predefined area for their safety and wellbeing. We propose GEM, a practical, semi-supervised Geofencing system with network EMbedding, which is based only on ambient radio frequency (RF) signals. GEM models measured RF signal records as a weighted bipartite graph. With access points on one side and signal records on the other, it is able to precisely capture the relationships between signal records. GEM then learns node embeddings from the graph via a novel bipartite network embedding algorithm called BiSAGE, based on a Bipartite graph neural network with a novel bi-level SAmple and aggreGatE mechanism and non-uniform neighborhood sampling. Using the learned embeddings, GEM finally builds a one-class classification model via an enhanced histogram-based algorithm for in-out detection, i.e., to detect whether the user is inside the area or not. This model also keeps on improving with newly collected signal records. We demonstrate through extensive experiments in diverse environments that GEM shows state-ofthe-art performance with up to 34% improvement in F -score. BiSAGE in GEM leads to a 54% improvement in F -score, as compared to the one without BiSAGE.
 
