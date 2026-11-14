@@ -5,6 +5,8 @@ This is the official implementation of the paper: <br/>
 > Weipeng Zhuo, Ka Ho Chiu, Jierun Chen, Jiajie Tan, Edmund Sumpena, Sangtae Ha, S.-H. Gary Chan, Chul-Ho Lee       
 > *IEEE International Conference on Data Engineering (ICDE), 2023*
 
+![](system_gem.png)
+
 Note: all configurations (required for running) are in **config.py**.
 
 Current **config.py** is the lab dataset.
