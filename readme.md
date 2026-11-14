@@ -24,3 +24,19 @@ In training, the signal records are used to construct an initial bipartite graph
 
 5. Run **sigmoid_scaling.py**, the result would be in folder **result**. This file applies sigmoid scaling to the outlier scores and detects outliers if any. It also updates the histograms built in the HBOS model if there are any highly confident in-boundary signal records. 
 
+## Bibliography
+
+If you find this work useful, please consider citing it.
+
+```
+@INPROCEEDINGS{gem2023,
+  author={Zhuo, Weipeng and Chiu, Ka Ho and Chen, Jierun and Tan, Jiajie and Sumpena, Edmund and Chan, S.-H. Gary and Ha, Sangtae and Lee, Chul-Ho},
+  booktitle={2023 IEEE 39th International Conference on Data Engineering (ICDE)}, 
+  title={Semi-supervised Learning with Network Embedding on Ambient RF Signals for Geofencing Services}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={2713-2726},
+  keywords={Radio frequency;Weight measurement;Representation learning;Pandemics;RF signals;Semisupervised learning;Robustness},
+  doi={10.1109/ICDE55515.2023.00208}}
+```
