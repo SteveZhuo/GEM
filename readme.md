@@ -11,6 +11,9 @@ In applications such as elderly care, dementia antiwandering and pandemic contro
 
 ![](system_gem.png)
 
+
+## Getting Started
+
 Note: all configurations (required for running) are in **config.py**.
 
 Current **config.py** is the lab dataset.
